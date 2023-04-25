@@ -1,7 +1,10 @@
 export default function Contact() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-[1rem] my-[6rem] lg:w-[1000px] lg:mx-auto lg:items-start lg:my-[20rem]">
+      <div
+        id="contact"
+        className="flex flex-col justify-center items-center gap-[1rem] my-[6rem] lg:w-[1000px] lg:mx-auto lg:items-start lg:my-[20rem]"
+      >
         <div>
           <h2 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira ">
             Contact

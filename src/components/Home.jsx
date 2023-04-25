@@ -11,7 +11,10 @@ import "../app.css";
 export default function Home() {
   return (
     <>
-      <div className="w-full h-screen flex flex-col justify-center items-center gap-[20px] relative md:items-start  lg:ml-[0px] md:ml-[2rem]">
+      <div
+        id="home"
+        className="w-full h-screen flex flex-col justify-center items-center gap-[20px] relative md:items-start  lg:ml-[0px] md:ml-[2rem]"
+      >
         <div className="flex flex-col justify-center items-start w-[280px] md:w-full lg:items-center lg:mx-auto">
           <div className="flex flex-col justify-center items-start">
             <p className="text-[14px] md:text-[20px] lg:text-[17px] text-[--green]  fontFira ">

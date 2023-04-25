@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { Outlet } from "react-router-dom";
 
@@ -19,7 +20,7 @@ export default function Navbar() {
           ""
         )}
         <div>
-          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px] bg-transparent lg:h-[76px] absolute z-[100]">
+          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px] bg-transparent lg:h-[76px] fixed z-[100]">
             <div className="text-[32px] items-center md:text-[20px] flex gap-[10px]">
               <img className="w-[50px]" src={Logo} alt="Company Logo" />
             </div>
@@ -40,17 +41,48 @@ export default function Navbar() {
             </div>
             <ul className="hidden md:flex md:items-center md:text-[18px] md:space-x-6 text-[--textWhite] md:fontFira">
               <li className="navlink nav-item">
-                <button>Home</button>
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Home
+                </Link>
               </li>
               <li className="navlink nav-item">
-                <button>About</button>
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Projects
+                </Link>
               </li>
               <li className="navlink nav-item">
-                <button>Projects</button>
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
+                >
+                  About
+                </Link>
               </li>
-
               <li className="navlink nav-item">
-                <button>Contact</button>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -61,21 +93,57 @@ export default function Navbar() {
                 : `fixed top-0 right-[-100%] z-50 w-full font-bold text-[22px] text-center duration-300 md:hidden overflow-hidden`
             }
           >
-            <div className="flex flex-col justify-center gap-[20px] h-screen md:flex  py-[1.5rem] md:mt-[0px] text-[--textWhite] text-[22px] items-left w-full bg-[--mobileBg] md:h-full z-50">
-              <li className="navlinkm" onClick={handleNav}>
-                Home
+            <ul className="flex flex-col justify-center gap-[20px] h-screen md:flex  py-[1.5rem] md:mt-[0px] text-[--textWhite] text-[22px] items-left w-full bg-[--mobileBg] md:h-full z-50">
+              <li className="navlinkm">
+                <Link
+                  to="home"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  onClick={handleNav}
+                >
+                  Home
+                </Link>
               </li>
-              <li className="navlinkm" onClick={handleNav}>
-                About
+              <li className="navlinkm">
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  onClick={handleNav}
+                >
+                  Projects
+                </Link>
               </li>
 
-              <li className="navlinkm" onClick={handleNav}>
-                Projects
+              <li className="navlinkm">
+                <Link
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  onClick={handleNav}
+                >
+                  About
+                </Link>
               </li>
-              <li className="navlinkm" onClick={handleNav}>
-                Contact
+              <li className="navlinkm">
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                  onClick={handleNav}
+                >
+                  Contact
+                </Link>
               </li>
-            </div>
+            </ul>
           </ul>
         </div>
       </nav>

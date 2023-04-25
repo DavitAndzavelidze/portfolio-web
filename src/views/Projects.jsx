@@ -3,7 +3,10 @@ import { ProjectsData } from "../components/ProjectsData";
 export default function Projects() {
   return (
     <>
-      <div className="w-full lg:w-[1400px] lg:mx-auto h-full my-[2rem] py-[1rem] flex flex-col gap-[10px]">
+      <div
+        id="projects"
+        className="w-full lg:w-[1400px] lg:mx-auto h-full my-[2rem] py-[1rem] flex flex-col gap-[10px]"
+      >
         <div className="self-center md:self-start md:ml-[2rem] lg:ml-[0px] lg:self-center">
           <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira mt-[4rem] lg:mt-[6rem] ">
             Projects
