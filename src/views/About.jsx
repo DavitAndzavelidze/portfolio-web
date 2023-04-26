@@ -8,8 +8,8 @@ export default function About() {
         id="about"
         className="w-full h-full my-[2rem] px-[1rem] flex flex-col justify-center items-center gap-[10px] lg:w-[1000px] lg:mx-auto lg:flex-row lg:my-[10rem] lg:justify-between"
       >
-        <div className="">
-          <h1 className="w-[125px] md:w-[145px] mx-auto text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira md:self-start md:ml-[1rem] lg:mx-[0px]">
+        <div>
+          <h1 className="w-[136px] md:w-[145px] mx-auto text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira md:self-start md:ml-[1rem] lg:mx-[0px]">
             About Me
           </h1>
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">

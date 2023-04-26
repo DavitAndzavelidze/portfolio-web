@@ -8,13 +8,13 @@ export default function Projects() {
         className="w-full lg:w-[1400px] lg:mx-auto h-full my-[2rem] py-[1rem] flex flex-col gap-[10px]"
       >
         <div className="self-center md:self-start md:ml-[2rem] lg:ml-[0px] lg:self-center">
-          <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira mt-[4rem] lg:mt-[6rem] ">
+          <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] fontFira mt-[4rem] lg:mt-[6rem] ">
             Projects
           </h1>
         </div>
         <div className="lg:w-full lg:flex lg:flex-col lg:items-end">
           {ProjectsData.map((projEl, index) => (
-            <div key={index} className="relative my-[1rem] lg:w-[1200px] ">
+            <div key={index} className="relative my-[2rem] lg:w-[1200px] ">
               <div className="w-full h-[230px] md:w-[700px] md:h-[418px] mx-auto">
                 <img
                   className="opacity-[0.1] blur-[2px] w-full h-full object-cover lg:blur-[0px] lg:hover:opacity-[0.8] lg:duration-[200ms]"

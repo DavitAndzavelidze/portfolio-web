@@ -20,7 +20,7 @@ export default function Navbar() {
           ""
         )}
         <div>
-          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px] bg-transparent lg:h-[76px] fixed z-[100]">
+          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px] bg-transparent lg:h-[76px] fixed z-[100] md:bg-[--bgNaviLight]">
             <div className="text-[32px] items-center md:text-[20px] flex gap-[10px]">
               <img className="w-[50px]" src={Logo} alt="Company Logo" />
             </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
                   to="home"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   Home
@@ -56,7 +56,7 @@ export default function Navbar() {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                 >
                   Projects
@@ -67,7 +67,7 @@ export default function Navbar() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-150}
+                  offset={-50}
                   duration={500}
                 >
                   About
@@ -78,7 +78,7 @@ export default function Navbar() {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-250}
                   duration={500}
                 >
                   Contact
