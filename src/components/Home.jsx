@@ -1,4 +1,5 @@
-import { AiOutlineCloudDownload } from "react-icons/ai";
+import { Link } from "react-scroll";
+import { BsArrowDownShort } from "react-icons/bs";
 import {
   AiOutlineInstagram,
   AiOutlineGithub,
@@ -29,11 +30,19 @@ export default function Home() {
 
             <div className="flex lg:items-center lg:mx-auto mt-[1rem] w-[280px] gap-[1rem] lg:w-full">
               <div className="relative z-[40]">
-                <button className="py-[1rem] pr-[20px] md:pr-[25px] w-[180px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
-                  Resume
-                </button>
+                <Link
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+                >
+                  <button className="py-[1rem] pr-[20px] md:pr-[25px] w-[180px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
+                    Scroll
+                  </button>
+                </Link>
                 <div className="absolute top-0 right-0 mr-[35px] mt-[20px] text-[20px] md:text-[30px] md:mr-[30px] md:mt-[18px] z-[-1]">
-                  <AiOutlineCloudDownload className="download-btn" />
+                  <BsArrowDownShort className="download-btn animate-bounce" />
                 </div>
               </div>
             </div>
@@ -76,7 +85,7 @@ export default function Home() {
         </div>
         <div className="lg:flex lg:flex-col lg:after:content-[''] lg:after:w-[1px] lg:after:h-[90px] lg:after:block lg:after:bg-[--green] lg:mr-[2rem] lg:after:mx-auto lg:gap-[2rem] lg:mt-[3rem]">
           <h2 className="verticalMode lg:cursor-pointer lg:hover:text-[--green] lg:duration-200 fontFira">
-            dandzavelidze@gmail.com
+            <a href="mailto:dandzavelidze@gmail.com">dandzavelidze@gmail.com</a>
           </h2>
         </div>
       </div>

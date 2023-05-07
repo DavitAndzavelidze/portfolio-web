@@ -44,6 +44,9 @@ body {
   overflow-x: hidden;
   user-select: none;
 }
+.active {
+  color: #64ffda;
+}
 .fontFira {
   font-family: var(--firaMono);
 }

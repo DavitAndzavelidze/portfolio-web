@@ -1,5 +1,5 @@
 import Organick from "../assets/organick.png";
-import Weather from "../assets/weather.png";
+import Twins from "../assets/twins.webp";
 import MayMakine from "../assets/maycapitalmakine.png";
 import Movies from "../assets/movies.png";
 import { FiGithub } from "react-icons/fi";
@@ -19,14 +19,14 @@ export const ProjectsData = [
   },
   {
     id: 1,
-    image: [Weather],
+    image: [Twins],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
-    liveLink: "https://weather-22.netlify.app/",
-    githubCode: "https://github.com/DavitAndzavelidze/WeatherAPI",
-    websiteTitle: "Weather",
-    siteInfo: `The weather website built using an API provides accurate and real-time weather data to users.`,
-    buildIn: `HTML CSS JavaScript API`,
+    liveLink: "https://twins21.netlify.app/",
+    githubCode: "https://github.com/DavitAndzavelidze/twins",
+    websiteTitle: "Twins",
+    siteInfo: `This mini game is a simple yet fun game where players need to flip over cards and match the identical ones. This game is great for improving memory, concentration, and visual recognition skills.`,
+    buildIn: `React Tailwind CSS`,
   },
   {
     id: 2,

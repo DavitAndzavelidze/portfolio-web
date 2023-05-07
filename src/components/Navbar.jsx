@@ -13,16 +13,24 @@ export default function Navbar() {
 
   return (
     <>
-      <nav>
+      <nav id="navbar">
         {nav ? (
-          <div className="bg-black/80 w-full h-full fixed top-0 left-0 z-[10] md:hidden"></div>
+          <div className="bg-black/80 w-full h-full fixed top-0 left-0 z-[50] md:hidden"></div>
         ) : (
           ""
         )}
         <div>
-          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px] bg-transparent lg:h-[76px] fixed z-[100] md:bg-[--bgNaviLight]">
+          <div className="w-full items-center px-[14px] lg:px-[36px] flex justify-between h-[64px]  lg:h-[76px] fixed z-[100] bg-[--bgNaviLight]">
             <div className="text-[32px] items-center md:text-[20px] flex gap-[10px]">
-              <img className="w-[50px]" src={Logo} alt="Company Logo" />
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                <img className="w-[50px]" src={Logo} alt="Company Logo" />
+              </Link>
             </div>
             <div onClick={handleNav}>
               {!nav ? (
@@ -42,10 +50,11 @@ export default function Navbar() {
             <ul className="hidden md:flex md:items-center md:text-[18px] md:space-x-6 text-[--textWhite] md:fontFira">
               <li className="navlink nav-item">
                 <Link
+                  activeClass="active"
                   to="home"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={-100}
                   duration={500}
                 >
                   Home
@@ -53,6 +62,7 @@ export default function Navbar() {
               </li>
               <li className="navlink nav-item">
                 <Link
+                  activeClass="active"
                   to="projects"
                   spy={true}
                   smooth={true}
@@ -64,10 +74,11 @@ export default function Navbar() {
               </li>
               <li className="navlink nav-item">
                 <Link
+                  activeClass="active"
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-50}
+                  offset={-100}
                   duration={500}
                 >
                   About
@@ -75,10 +86,11 @@ export default function Navbar() {
               </li>
               <li className="navlink nav-item">
                 <Link
+                  activeClass="active"
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-250}
+                  offset={-100}
                   duration={500}
                 >
                   Contact
@@ -124,7 +136,7 @@ export default function Navbar() {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-100}
+                  offset={-50}
                   duration={500}
                   onClick={handleNav}
                 >
@@ -136,7 +148,7 @@ export default function Navbar() {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={50}
+                  offset={-50}
                   duration={500}
                   onClick={handleNav}
                 >
