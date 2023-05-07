@@ -25,7 +25,7 @@ export const ProjectsData = [
     liveLink: "https://twins21.netlify.app/",
     githubCode: "https://github.com/DavitAndzavelidze/twins",
     websiteTitle: "Twins",
-    siteInfo: `This mini game is a simple yet fun game where players need to flip over cards and match the identical ones. This game is great for improving memory, concentration, and visual recognition skills.`,
+    siteInfo: `This mini game is a simple yet fun game where players need to flip over cards and match the identical ones.`,
     buildIn: `React Tailwind CSS`,
   },
   {

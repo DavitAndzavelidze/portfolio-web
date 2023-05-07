@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div
         id="about"
-        className="w-full h-full my-[2rem] px-[1rem] flex flex-col justify-center items-center gap-[10px] lg:w-[1000px] lg:mx-auto lg:flex-row lg:my-[10rem] lg:justify-between"
+        className="w-full h-full my-[2rem] pt-[7rem] md:pt-[0px] px-[1rem] flex flex-col justify-center items-center gap-[10px] lg:w-[1000px] lg:mx-auto lg:flex-row lg:my-[10rem] lg:justify-between"
       >
         <div>
           <h1 className="w-[136px] md:w-[145px] mx-auto text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira md:self-start md:ml-[1rem] lg:mx-[0px]">
