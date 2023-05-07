@@ -37,6 +37,7 @@ export default function Contact() {
                       placeholder="Name"
                       autoComplete="off"
                       id="contact-name"
+                      required
                     />
                   </div>
                   <div className="flex flex-col gap-[5px]">
@@ -50,6 +51,7 @@ export default function Contact() {
                       placeholder="Email"
                       autoComplete="off"
                       id="contact-name"
+                      required
                     />
                   </div>
                 </div>
@@ -65,6 +67,7 @@ export default function Contact() {
                     placeholder="Subject"
                     autoComplete="off"
                     id="contact-name"
+                    required
                   />
                 </div>
                 <div className="flex flex-col gap-[5px]">
@@ -77,6 +80,7 @@ export default function Contact() {
                     placeholder="Message"
                     cols="30"
                     rows="10"
+                    required
                   ></textarea>
                 </div>
               </div>
