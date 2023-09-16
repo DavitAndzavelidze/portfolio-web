@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="w-[300px] md:w-[620px] lg:w-[1200px] mx-auto">
-                <button className="py-[1rem] mt-[1rem] lg:mt-[2rem] w-[140px] lg:w-[160px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150 text-[--textLight]">
+                <button className="py-[10px] mt-[1rem] lg:mt-[2rem] w-[80px] lg:w-[100px] rounded-[10px] text-[18px] md:text-[20px] fontFira border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150 text-[--textLight]">
                   Send
                 </button>
               </div>

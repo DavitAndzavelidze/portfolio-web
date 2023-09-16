@@ -53,6 +53,12 @@ export default function About() {
                 <p>
                   <BsPlay color="#64ffda" />
                 </p>
+                <p>TypeScript</p>
+              </div>
+              <div className="flex items-center gap-[5px]">
+                <p>
+                  <BsPlay color="#64ffda" />
+                </p>
                 <p>Git</p>
               </div>
             </div>
