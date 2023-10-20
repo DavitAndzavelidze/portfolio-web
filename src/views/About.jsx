@@ -39,6 +39,12 @@ export default function About() {
                 <p>
                   <BsPlay color="#64ffda" />
                 </p>
+                <p>Next JS</p>
+              </div>
+              <div className="flex items-center gap-[5px]">
+                <p>
+                  <BsPlay color="#64ffda" />
+                </p>
                 <p>Tailwind CSS</p>
               </div>
             </div>

@@ -5,8 +5,6 @@ import About from "./views/About.jsx";
 import Contact from "./views/Contact.jsx";
 import Projects from "./views/Projects.jsx";
 
-// import NotFound from "./views/NotFound.jsx";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,11 +28,6 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
-
-      //   {
-      //     path: "*",
-      //     element: <NotFound />,
-      //   },
     ],
   },
 ]);

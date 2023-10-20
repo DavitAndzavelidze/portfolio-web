@@ -2,6 +2,7 @@ import Organick from "../assets/organick.png";
 import Twins from "../assets/twins.webp";
 import MayMakine from "../assets/maycapitalmakine.png";
 import Movies from "../assets/movies.png";
+import Offroad from "../assets/offroad.png";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -49,5 +50,16 @@ export const ProjectsData = [
     websiteTitle: "Movies",
     siteInfo: `A movie website built by API provides a comprehensive database of movies. It contains ratings and movie information`,
     buildIn: `HTML CSS JavaScript API`,
+  },
+  {
+    id: 4,
+    image: [Offroad],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://offroad.vercel.app/",
+    githubCode: "https://github.com/DavitAndzavelidze/offroad",
+    websiteTitle: "Offroad",
+    siteInfo: `This is a landing website dedicated to offroad adventures, constructed using Next.js and Tailwind CSS, featuring engaging animations powered by Framer Motion.`,
+    buildIn: `Next JS Tailwind CSS Framer Motion`,
   },
 ];
