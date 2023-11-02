@@ -3,6 +3,7 @@ import Twins from "../assets/twins.webp";
 import MayMakine from "../assets/maycapitalmakine.png";
 import Movies from "../assets/movies.png";
 import Offroad from "../assets/offroad.png";
+import Lidya from "../assets/lidya.png";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -60,6 +61,17 @@ export const ProjectsData = [
     githubCode: "https://github.com/DavitAndzavelidze/offroad",
     websiteTitle: "Offroad",
     siteInfo: `This is a landing website dedicated to offroad adventures, constructed using Next.js and Tailwind CSS, featuring engaging animations powered by Framer Motion.`,
+    buildIn: `Next JS Tailwind CSS Framer Motion`,
+  },
+  {
+    id: 5,
+    image: [Lidya],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://lidyanet.com/",
+    githubCode: "https://github.com/DavitAndzavelidze/lidya",
+    websiteTitle: "Lidya",
+    siteInfo: `The website can provide information about construction company, including their qualifications, contacts and experience.`,
     buildIn: `Next JS Tailwind CSS Framer Motion`,
   },
 ];

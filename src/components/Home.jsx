@@ -8,15 +8,16 @@ import {
 import { FiLinkedin } from "react-icons/fi";
 import { CiTwitter } from "react-icons/ci";
 import "../app.css";
+import ParticlesContainer from "./ParticlesContainer";
 
 export default function Home() {
   return (
     <>
       <div
         id="home"
-        className="w-full h-screen flex flex-col justify-center items-center gap-[20px] relative md:items-start  lg:ml-[0px] md:ml-[2rem]"
+        className="w-full h-screen flex flex-col justify-center items-center gap-[20px] relative md:items-start  lg:ml-[0px] md:ml-[2rem] "
       >
-        <div className="flex flex-col justify-center items-start w-[280px] md:w-full lg:items-center lg:mx-auto">
+        <div className="flex flex-col justify-center items-start w-[280px] md:w-full lg:items-center lg:mx-auto z-30">
           <div className="flex flex-col justify-center items-start">
             <p className="text-[14px] md:text-[20px] lg:text-[17px] text-[--green]  fontFira ">
               Hi there! I'm
@@ -48,6 +49,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <ParticlesContainer />
       </div>
       <div className="lg:fixed lg:left-0 lg:bottom-0 lg:flex lg:justify-between lg:items-center lg:w-full lg:text-[--textLight] hidden">
         <div className="lg:flex lg:flex-col lg:text-[25px] lg:gap-[1rem] lg:ml-[2rem] lg:after:content-[''] lg:after:w-[1px] lg:after:h-[90px] lg:after:block lg:after:bg-[--green] lg:after:mx-auto lg:cursor-pointer">
