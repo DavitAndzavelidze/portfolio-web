@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <ParticlesContainer />
       </div>
-      <div className="lg:fixed lg:left-0 lg:bottom-0 lg:flex lg:justify-between lg:items-center lg:w-full lg:text-[--textLight] hidden">
+      <div className="lg:fixed lg:left-0 lg:bottom-0 lg:flex lg:justify-between lg:items-center lg:w-full lg:text-[--textLight] hidden z-30">
         <div className="lg:flex lg:flex-col lg:text-[25px] lg:gap-[1rem] lg:ml-[2rem] lg:after:content-[''] lg:after:w-[1px] lg:after:h-[90px] lg:after:block lg:after:bg-[--green] lg:after:mx-auto lg:cursor-pointer">
           <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
             <a href="https://github.com/DavitAndzavelidze" target="_blank">

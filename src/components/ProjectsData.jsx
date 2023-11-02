@@ -1,9 +1,9 @@
-import Organick from "../assets/organick.png";
+import Organick from "../assets/organick.webp";
 import Twins from "../assets/twins.webp";
-import MayMakine from "../assets/maycapitalmakine.png";
-import Movies from "../assets/movies.png";
-import Offroad from "../assets/offroad.png";
-import Lidya from "../assets/lidya.png";
+import MayMakine from "../assets/maycapitalmakine.webp";
+import Movies from "../assets/movies.webp";
+import Offroad from "../assets/offroad.webp";
+import Lidya from "../assets/lidya.webp";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
