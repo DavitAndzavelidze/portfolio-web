@@ -17,7 +17,7 @@ export default function Home() {
         id="home"
         className="w-full h-screen flex flex-col justify-center items-center gap-[20px] relative md:items-start  lg:ml-[0px] md:ml-[2rem] "
       >
-        <div className="flex flex-col justify-center items-start w-[280px] md:w-full lg:items-center lg:mx-auto z-30">
+        <div className="flex flex-col justify-center items-start w-[280px] md:w-full lg:items-center lg:mx-auto">
           <div className="flex flex-col justify-center items-start">
             <p className="text-[14px] md:text-[20px] lg:text-[17px] text-[--green]  fontFira ">
               Hi there! I'm
@@ -30,7 +30,7 @@ export default function Home() {
             </p>
 
             <div className="flex lg:items-center lg:mx-auto mt-[1rem] w-[280px] gap-[1rem] lg:w-full">
-              <div className="relative z-[40]">
+              <div className="relative z-[50]">
                 <Link
                   to="projects"
                   spy={true}
@@ -38,7 +38,7 @@ export default function Home() {
                   offset={-50}
                   duration={500}
                 >
-                  <button className="py-[1rem] pr-[20px] md:pr-[25px] w-[180px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
+                  <button className="py-[1rem] pr-[20px] md:pr-[25px] w-[180px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150 ">
                     Scroll
                   </button>
                 </Link>
