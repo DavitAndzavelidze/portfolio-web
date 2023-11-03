@@ -1,7 +1,14 @@
+import { motion } from "framer-motion";
+import { topToBottom } from "../utils/motion";
+
 export default function Contact() {
   return (
     <>
-      <div
+      <motion.div
+        variants={topToBottom}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
         id="contact"
         className="flex flex-col justify-center pt-[7rem] md:pt-[0px] items-center gap-[1rem] my-[6rem] lg:w-[1000px] lg:mx-auto lg:items-start lg:my-[20rem]"
       >
@@ -92,7 +99,7 @@ export default function Contact() {
             </form>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

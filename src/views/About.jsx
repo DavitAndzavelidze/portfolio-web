@@ -1,10 +1,16 @@
 import PortfolioImage from "../assets/PortfolioImage.webp";
 import { BsPlay } from "react-icons/bs";
+import { motion } from "framer-motion";
+import { topToBottom } from "../utils/motion";
 
 export default function About() {
   return (
     <>
-      <div
+      <motion.div
+        variants={topToBottom}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
         id="about"
         className="w-full h-full my-[2rem] pt-[7rem] md:pt-[0px] px-[1rem] flex flex-col justify-center items-center gap-[10px] lg:w-[1000px] lg:mx-auto lg:flex-row lg:my-[10rem] lg:justify-between"
       >
@@ -78,7 +84,7 @@ export default function About() {
             alt="portfolio image"
           />
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

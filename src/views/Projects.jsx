@@ -1,4 +1,6 @@
 import { ProjectsData } from "../components/ProjectsData";
+import { motion } from "framer-motion";
+import { topToBottom, leftToRight, rightToLeft } from "../utils/motion";
 
 export default function Projects() {
   return (
@@ -7,22 +9,40 @@ export default function Projects() {
         id="projects"
         className="w-full lg:w-[1400px] pt-[3rem] md:pt-[0px] lg:mx-auto h-full my-[2rem] py-[1rem] flex flex-col gap-[10px]"
       >
-        <div className="self-center md:self-start md:ml-[2rem] lg:ml-[0px] lg:self-center">
+        <motion.div
+          variants={topToBottom}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true }}
+          className="self-center md:self-start md:ml-[2rem] lg:ml-[0px] lg:self-center"
+        >
           <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] fontFira mt-[4rem] lg:mt-[6rem] ">
             Projects
           </h1>
-        </div>
+        </motion.div>
         <div className="lg:w-full lg:flex lg:flex-col lg:items-end">
           {ProjectsData.map((projEl, index) => (
             <div key={index} className="relative my-[2rem] lg:w-[1200px] ">
-              <div className="w-full h-[230px] md:w-[700px] md:h-[418px] mx-auto">
+              <motion.div
+                variants={rightToLeft}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="w-full h-[230px] md:w-[700px] md:h-[418px] mx-auto"
+              >
                 <img
                   className="opacity-[0.1] blur-[2px] w-full h-full object-cover lg:blur-[0px] lg:hover:opacity-[0.8] lg:duration-[200ms]"
                   src={projEl.image}
                   alt="organick"
                 />
-              </div>
-              <div className="absolute top-0 left-0 w-full h-full px-[20px] md:pl-[4rem] flex flex-col justify-center gap-[10px] md:w-[700px] md:h-[418px] lg:w-[250px] lg:pl-[0px] lg:items-start">
+              </motion.div>
+              <motion.div
+                variants={leftToRight}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true }}
+                className="absolute top-0 left-0 w-full h-full px-[20px] md:pl-[4rem] flex flex-col justify-center gap-[10px] md:w-[700px] md:h-[418px] lg:w-[250px] lg:pl-[0px] lg:items-start"
+              >
                 <h2 className="text-[20px] md:text-[25px] font-bold text-[--textWhite]">
                   {projEl.websiteTitle}
                 </h2>
@@ -44,7 +64,7 @@ export default function Projects() {
                     </p>
                   </a>
                 </div>
-              </div>
+              </motion.div>
             </div>
           ))}
         </div>
