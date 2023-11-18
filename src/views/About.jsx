@@ -21,7 +21,7 @@ export default function About() {
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">
             Hello, I'm a React Web Developer specializing in building
             exceptional digital experiences. Currently focused on building
-            responsive front-end web applications while learning back-end
+            responsive front-end web applications and learning back-end
             technologies.
           </p>
           <p className="px-[20px] self-start text-[--textLight] md:text-[20px] lg:px-[0px]">
