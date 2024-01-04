@@ -1,6 +1,5 @@
 import Organick from "../assets/organick.webp";
 import Twins from "../assets/twins.webp";
-import MayMakine from "../assets/maycapitalmakine.webp";
 import Movies from "../assets/movies.webp";
 import Offroad from "../assets/offroad.webp";
 import Lidya from "../assets/lidya.webp";
@@ -30,17 +29,7 @@ export const ProjectsData = [
     siteInfo: `This mini game is a simple yet fun game where players need to flip over cards and match the identical ones.`,
     buildIn: `React Tailwind CSS`,
   },
-  {
-    id: 2,
-    image: [MayMakine],
-    liveSite: <FiExternalLink />,
-    github: <FiGithub />,
-    liveLink: "https://maycapitalmakine.com/",
-    githubCode: "https://github.com/DavitAndzavelidze/maycapitalm",
-    websiteTitle: "MayCapitalMakine",
-    siteInfo: `The website can provide information about company, including their qualifications and experience.`,
-    buildIn: `React Tailwind CSS`,
-  },
+
   {
     id: 3,
     image: [Movies],
