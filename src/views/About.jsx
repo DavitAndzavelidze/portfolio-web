@@ -19,10 +19,11 @@ export default function About() {
             About Me
           </h1>
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">
-            Hello, I'm a React Web Developer specializing in building
-            exceptional digital experiences. Currently focused on building
-            responsive front-end web applications and learning back-end
-            technologies.
+            Hello, I'm a passionate ad driven odoo developer who has recently
+            embaked on a new journey in my career. As a odoo developer, I'm
+            excited to delve into the world enterprise resourse planning systems
+            and contribute to the development of robust and costumized solutions
+            for businesses.
           </p>
           <p className="px-[20px] self-start text-[--textLight] md:text-[20px] lg:px-[0px]">
             Here are a few technologies I've been working with recently:
@@ -72,6 +73,18 @@ export default function About() {
                   <BsPlay color="#64ffda" />
                 </p>
                 <p>Git</p>
+              </div>
+              <div className="flex items-center gap-[5px]">
+                <p>
+                  <BsPlay color="#64ffda" />
+                </p>
+                <p>Python</p>
+              </div>
+              <div className="flex items-center gap-[5px]">
+                <p>
+                  <BsPlay color="#64ffda" />
+                </p>
+                <p>odoo</p>
               </div>
             </div>
           </div>

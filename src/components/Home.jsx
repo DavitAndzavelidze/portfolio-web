@@ -34,7 +34,9 @@ export default function Home() {
               Davit Andzavelidze
             </h1>
             <p className="text-[--textLight] md:text-[30px] font-[400]">
-              I'm React Developer based in Tbilisi, Georgia
+              I'm
+              <p className="text-purple-600 inline"> o</p>doo developer based in
+              Tbilisi, Georgia
             </p>
 
             <div className="flex lg:items-center lg:mx-auto mt-[1rem] w-[280px] gap-[1rem] lg:w-full">
