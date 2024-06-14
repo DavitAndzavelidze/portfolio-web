@@ -50,11 +50,11 @@ export default function Home() {
                   offset={-50}
                   duration={500}
                 >
-                  <button className="py-[10px] pr-[20px] md:pr-[20px] w-[130px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--purple] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
+                  <button className="py-[10px] px-4 pr-[25px] md:pr-[2.5rem] rounded-[10px] text-[16px] md:text-[20px] fontFira text-[--green] border border-[--purple] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
                     Scroll
                   </button>
                 </Link>
-                <div className="absolute top-0 right-0 mr-[35px] mt-[20px] text-[20px] md:text-[30px] md:mr-[10px] md:mt-[18px] z-[-1]">
+                <div className="absolute top-0 mr-[6px] right-0 mt-[16px] text-[20px] md:text-[30px] md:mr-[10px] md:mt-[18px] z-[-1]">
                   <BsArrowDownShort className="download-btn animate-bounce" />
                 </div>
               </div>

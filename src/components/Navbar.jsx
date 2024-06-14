@@ -36,12 +36,12 @@ export default function Navbar() {
               {!nav ? (
                 <RxHamburgerMenu
                   size="30px"
-                  color="#64ffda"
+                  color="#ba67d6"
                   className="md:hidden cursor-pointer"
                 />
               ) : (
                 <RxCross2
-                  color="#64ffda"
+                  color="#ba67d6"
                   size="30px"
                   className="absolute top-0 right-0 mt-[15px] mr-[15px] cursor-pointer z-[100] md:hidden"
                 />
@@ -101,11 +101,11 @@ export default function Navbar() {
           <ul
             className={
               nav
-                ? `fixed top-0 right-0 z-[50] w-[70%] font-bold text-[22px] text-center duration-300 md:hidden`
+                ? `fixed top-0 right-0 z-[50] w-[100%] h-full font-bold text-[22px] text-center duration-300 md:hidden`
                 : `fixed top-0 right-[-100%] z-50 w-full font-bold text-[22px] text-center duration-300 md:hidden overflow-hidden`
             }
           >
-            <ul className="flex flex-col justify-center gap-[20px] h-screen md:flex  py-[1.5rem] md:mt-[0px] text-[--textWhite] text-[22px] items-left w-full bg-[--mobileBg] md:h-full z-50">
+            <ul className="flex flex-col justify-center gap-[20px] h-full md:flex  py-[1.5rem] md:mt-[0px] text-[--textWhite] text-[22px] items-left w-full bg-[--mobileBg] md:h-full z-50">
               <li className="navlinkm">
                 <Link
                   to="home"
