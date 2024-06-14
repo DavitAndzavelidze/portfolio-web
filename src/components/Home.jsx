@@ -34,9 +34,11 @@ export default function Home() {
               Davit Andzavelidze
             </h1>
             <p className="text-[--textLight] md:text-[30px] font-[400]">
-              I'm
-              <p className="text-purple-600 inline"> o</p>doo developer based in
-              Tbilisi, Georgia
+              I'm{" "}
+              <p className="inline bg-white text-gray-500 font-bold px-2 rounded-lg">
+                <p className="text-purple-600 inline"> o</p>doo
+              </p>{" "}
+              developer based in Tbilisi, Georgia
             </p>
 
             <div className="flex lg:items-center lg:mx-auto mt-[1rem] w-[280px] gap-[1rem] lg:w-full">
@@ -48,11 +50,11 @@ export default function Home() {
                   offset={-50}
                   duration={500}
                 >
-                  <button className="py-[1rem] pr-[20px] md:pr-[25px] w-[180px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
+                  <button className="py-[10px] pr-[20px] md:pr-[20px] w-[130px] rounded-[10px] text-[18px] md:text-[20px] fontFira text-[--green] border border-[--purple] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150">
                     Scroll
                   </button>
                 </Link>
-                <div className="absolute top-0 right-0 mr-[35px] mt-[20px] text-[20px] md:text-[30px] md:mr-[30px] md:mt-[18px] z-[-1]">
+                <div className="absolute top-0 right-0 mr-[35px] mt-[20px] text-[20px] md:text-[30px] md:mr-[10px] md:mt-[18px] z-[-1]">
                   <BsArrowDownShort className="download-btn animate-bounce" />
                 </div>
               </div>

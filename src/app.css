@@ -6,10 +6,12 @@
   --bgNavi: #0a192f;
   --bgNaviLight: rgba(10, 25, 47, 0.8);
   --lightNavy: #112240;
-  --green: #64ffda;
-  --greenTint: rgba(100, 255, 218, 0.1);
+  --green: #9f93a3;
+  --greenTint: rgba(159, 147, 163, 0.1);
   --mobileBg: #112240;
   --textLight: #8892b0;
+  --purple: #8a26ab;
+  --lightPurple: #ba67d6;
 
   --firaMono: "Fira Mono", monospace;
 
@@ -45,7 +47,7 @@ body {
   user-select: none;
 }
 .active {
-  color: #64ffda;
+  color: var(--lightPurple);
 }
 .fontFira {
   font-family: var(--firaMono);
