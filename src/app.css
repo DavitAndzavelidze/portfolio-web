@@ -45,7 +45,14 @@ body {
   background: var(--bgNavi);
   overflow-x: hidden;
   user-select: none;
+  position: relative;
+  height: 100%;
 }
+#root {
+  height: 100%;
+  overflow: auto;
+}
+
 .active {
   color: var(--lightPurple);
 }

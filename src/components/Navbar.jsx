@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
 import { Outlet } from "react-router-dom";
@@ -10,6 +10,23 @@ export default function Navbar() {
   const handleNav = () => {
     setNav(!nav);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const body = document.querySelector("body");
+      if (nav) {
+        body.style.overflow = "hidden";
+      } else {
+        body.style.overflow = "auto";
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [nav]);
 
   return (
     <>
@@ -102,7 +119,7 @@ export default function Navbar() {
             className={
               nav
                 ? `fixed top-0 right-0 z-[50] w-[100%] h-full font-bold text-[22px] text-center duration-300 md:hidden`
-                : `fixed top-0 right-[-100%] z-50 w-full font-bold text-[22px] text-center duration-300 md:hidden overflow-hidden`
+                : `fixed top-0 right-[-100%] z-50 w-full h-full font-bold text-[22px] text-center duration-300 md:hidden overflow-hidden`
             }
           >
             <ul className="flex flex-col justify-center gap-[20px] h-full md:flex  py-[1.5rem] md:mt-[0px] text-[--textWhite] text-[22px] items-left w-full bg-[--mobileBg] md:h-full z-50">
