@@ -16,7 +16,7 @@ export default function Projects() {
           viewport={{ once: true }}
           className="self-center md:self-start md:ml-[2rem] lg:ml-[0px] lg:self-center"
         >
-          <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] fontFira mt-[4rem] lg:mt-[6rem] ">
+          <h1 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--lightPurple] fontFira mt-[4rem] lg:mt-[6rem] ">
             Projects
           </h1>
         </motion.div>
@@ -54,12 +54,12 @@ export default function Projects() {
                 </ul>
                 <div className="flex items-center gap-[20px] text-[20px] lg:text-[22px] md:text-[25px] text-[--bgGray]">
                   <a href={projEl.liveLink} target="_blank">
-                    <p className="lg:hover:text-[--green] lg:duration-[200ms] lg:cursor-pointer">
+                    <p className="lg:hover:text-[--lightPurple] lg:duration-[200ms] lg:cursor-pointer">
                       {projEl.liveSite}
                     </p>
                   </a>
                   <a href={projEl.githubCode} target="_blank">
-                    <p className="lg:hover:text-[--green] lg:duration-[200ms] lg:cursor-pointer ">
+                    <p className="lg:hover:text-[--lightPurple] lg:duration-[200ms] lg:cursor-pointer ">
                       {projEl.github}
                     </p>
                   </a>

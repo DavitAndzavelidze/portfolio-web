@@ -71,12 +71,12 @@ export default function Home() {
         viewport={{ once: true }}
         className="hidden lg:fixed left-0 bottom-0 lg:z-30 text-[--textLight] lg:flex lg:flex-col lg:text-[25px] lg:gap-[1rem] lg:ml-[2rem] lg:after:content-[''] lg:after:w-[1px] lg:after:h-[90px] lg:after:block lg:after:bg-[--green] lg:after:mx-auto lg:cursor-pointer"
       >
-        <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
+        <div className="lg:hover:text-[--lightPurple] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
           <a href="https://github.com/DavitAndzavelidze" target="_blank">
             <AiOutlineGithub />
           </a>
         </div>
-        <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
+        <div className="lg:hover:text-[--lightPurple] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
           <a
             href="https://www.instagram.com/davidandzavelidze/"
             target="_blank"
@@ -84,12 +84,12 @@ export default function Home() {
             <AiOutlineInstagram />
           </a>
         </div>
-        <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
+        <div className="lg:hover:text-[--lightPurple] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
           <a href="https://twitter.com/davit212121" target="_blank">
             <CiTwitter />
           </a>
         </div>
-        <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
+        <div className="lg:hover:text-[--lightPurple] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
           <a
             href="https://www.linkedin.com/in/davit-andzavelidze-246a69197/"
             target="_blank"
@@ -97,7 +97,7 @@ export default function Home() {
             <FiLinkedin />
           </a>
         </div>
-        <div className="lg:hover:text-[--green] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
+        <div className="lg:hover:text-[--lightPurple] lg:duration-200 lg:hover:translate-y-[-5px] lg:p-[10px]">
           <a href="https://codepen.io/davitandzavelidze" target="_blank">
             <AiOutlineCodepen />
           </a>
@@ -110,7 +110,7 @@ export default function Home() {
         viewport={{ once: true }}
         className="hidden lg:fixed right-0 bottom-0 lg:z-30 text-[--textLight] lg:flex lg:flex-col lg:after:content-[''] lg:after:w-[1px] lg:after:h-[90px] lg:after:block lg:after:bg-[--green] lg:mr-[2rem] lg:after:mx-auto lg:gap-[2rem] lg:mt-[3rem]"
       >
-        <h2 className="verticalMode lg:cursor-pointer lg:hover:text-[--green] lg:duration-200 fontFira">
+        <h2 className="verticalMode lg:cursor-pointer lg:hover:text-[--lightPurple] lg:duration-200 fontFira">
           <a href="mailto:dandzavelidze@gmail.com">dandzavelidze@gmail.com</a>
         </h2>
       </motion.div>

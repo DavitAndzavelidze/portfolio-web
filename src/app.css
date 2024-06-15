@@ -75,7 +75,7 @@ body {
   writing-mode: vertical-lr;
 }
 .navlink:hover {
-  color: var(--green);
+  color: var(--lightPurple);
 }
 .icon {
   color: #274c5b;

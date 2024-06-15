@@ -15,7 +15,7 @@ export default function About() {
         className="w-full h-full my-[2rem] pt-[7rem] md:pt-[0px] px-[1rem] flex flex-col justify-center items-center gap-[10px] lg:w-[1000px] lg:mx-auto lg:flex-row lg:my-[10rem] lg:justify-between"
       >
         <div>
-          <h1 className="w-[136px] md:w-[145px] mx-auto text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira md:self-start md:ml-[1rem] lg:mx-[0px]">
+          <h1 className="w-[136px] md:w-[145px] mx-auto text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--lightPurple] mb-[1rem] fontFira md:self-start md:ml-[1rem] lg:mx-[0px]">
             About Me
           </h1>
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">
@@ -32,25 +32,25 @@ export default function About() {
             <div className="flex flex-col gap-[10px] fontFira">
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>JavaScript</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>React</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>Next JS</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>Tailwind CSS</p>
               </div>
@@ -58,31 +58,31 @@ export default function About() {
             <div className="flex flex-col gap-[10px] fontFira">
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>Bootstrap</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>TypeScript</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>Git</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>Python</p>
               </div>
               <div className="flex items-center gap-[5px]">
                 <p>
-                  <BsPlay color="#64ffda" />
+                  <BsPlay color="#ba67d6" />
                 </p>
                 <p>odoo</p>
               </div>

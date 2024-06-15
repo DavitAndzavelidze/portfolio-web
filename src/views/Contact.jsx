@@ -13,12 +13,12 @@ export default function Contact() {
         className="flex flex-col justify-center pt-[7rem] md:pt-[0px] items-center gap-[1rem] my-[6rem] lg:w-[1000px] lg:mx-auto lg:items-start lg:my-[20rem]"
       >
         <div>
-          <h2 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--textLight] mb-[1rem] fontFira ">
+          <h2 className="text-[25px] md:text-[30px] text-[--textWhite] font-bold border-b-[1px] border-[--lightPurple] mb-[1rem] fontFira ">
             Contact
           </h2>
         </div>
         <div className="flex flex-col justify-center items-center gap-[1rem] lg:items-start lg:relative">
-          <h2 className="text-[20px] md:text-[25px] fontFira text-[--green]">
+          <h2 className="text-[20px] md:text-[25px] fontFira text-[--lightPurple]">
             Get In Touch
           </h2>
           <p className="mx-[2rem] md:mx-[4rem] text-[--textLight] text-center md:text-[20px] lg:text-start lg:mx-auto">
@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="w-[300px] md:w-[620px] lg:w-[1200px] mx-auto">
-                <button className="py-[10px] mt-[1rem] lg:mt-[2rem] w-[80px] lg:w-[100px] rounded-[10px] text-[18px] md:text-[20px] fontFira border border-[--green] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150 text-[--textLight]">
+                <button className="py-[6px] mt-[1rem] lg:mt-[2rem] w-[60px] lg:w-[70px] rounded-[10px] text-[16px] md:text-[18px] fontFira border border-[--lightPurple] shadow-[0_5px_15px_rgba(0,0,0,0.35)] lg:hover:bg-[--greenTint] lg:duration-150 text-[--textLight]">
                   Send
                 </button>
               </div>
