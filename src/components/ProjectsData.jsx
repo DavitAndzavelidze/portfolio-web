@@ -3,6 +3,7 @@ import Twins from "../assets/twins.webp";
 import Movies from "../assets/movies.webp";
 import Offroad from "../assets/offroad.webp";
 import Lidya from "../assets/lidya.webp";
+import myracha from "../assets/myracha.webp";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -31,7 +32,7 @@ export const ProjectsData = [
   },
 
   {
-    id: 3,
+    id: 2,
     image: [Movies],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
@@ -42,7 +43,7 @@ export const ProjectsData = [
     buildIn: `HTML CSS JavaScript API`,
   },
   {
-    id: 4,
+    id: 3,
     image: [Offroad],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
@@ -53,7 +54,7 @@ export const ProjectsData = [
     buildIn: `Next JS Tailwind CSS Framer Motion`,
   },
   {
-    id: 5,
+    id: 4,
     image: [Lidya],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
@@ -62,5 +63,15 @@ export const ProjectsData = [
     websiteTitle: "Lidya",
     siteInfo: `The website can provide information about construction company, including their qualifications, contacts and experience.`,
     buildIn: `Next JS Tailwind CSS Framer Motion`,
+  },
+  {
+    id: 5,
+    image: [myracha],
+    liveSite: <FiExternalLink />,
+    github: <FiGithub />,
+    liveLink: "https://www.myracha.ge/",
+    websiteTitle: "Myracha.ge",
+    siteInfo: `The site is intended for people who want to travel to Racha. Find the desired cottage, family hotel or guest house and spend an unforgettable time.`,
+    buildIn: `Odoo Website Builder`,
   },
 ];

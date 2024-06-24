@@ -33,7 +33,7 @@ export default function Home() {
             <h1 className="text-[30px] md:text-[50px] lg:text-[70px] lg:font-[900] text-[--textWhite] font-bold">
               Davit Andzavelidze
             </h1>
-            <p className="text-[--textLight] md:text-[30px] font-[400]">
+            <p className="text-[--textLight] md:text-[24px] font-[400]">
               I'm{" "}
               <p className="inline bg-white text-gray-500 font-bold px-2 rounded-lg">
                 <p className="text-purple-600 inline"> o</p>doo
