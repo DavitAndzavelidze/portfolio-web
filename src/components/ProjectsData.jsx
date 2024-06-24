@@ -70,7 +70,7 @@ export const ProjectsData = [
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
     liveLink: "https://www.myracha.ge/",
-    websiteTitle: "Myracha.ge",
+    websiteTitle: "Myracha",
     siteInfo: `The site is intended for people who want to travel to Racha. Find the desired cottage, family hotel or guest house and spend an unforgettable time.`,
     buildIn: `Odoo Website Builder`,
   },
