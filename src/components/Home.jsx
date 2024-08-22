@@ -36,7 +36,7 @@ export default function Home() {
             <p className="text-[--textLight] md:text-[24px] font-[400]">
               I'm{" "}
               <p className="inline bg-white text-gray-500 font-bold px-2 rounded-lg">
-                <p className="text-purple-600 inline"> o</p>doo
+                full stack
               </p>{" "}
               developer based in Tbilisi, Georgia
             </p>

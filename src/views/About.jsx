@@ -19,11 +19,16 @@ export default function About() {
             About Me
           </h1>
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">
-            Hello, I'm a passionate ad driven odoo developer who has recently
-            embaked on a new journey in my career. As a odoo developer, I'm
-            excited to delve into the world enterprise resourse planning systems
-            and contribute to the development of robust and costumized solutions
-            for businesses.
+            Hello, I'm a full stack developer and I bring a comprehensive skill
+            set that spans both front-end and back-end technologies. My
+            technical proficiency includes languages such as JavaScript and
+            Python as well as framework like React. I'm experienced in database
+            management, API development and implementing responsive web designs.
+            I'm passionate about staying current with the latest web development
+            trends and continuously improving my skills. My career goal is to
+            grow into a lead development role where I can mentor junior
+            developers and contribute to architectural decisions on large-scale
+            projects
           </p>
           <p className="px-[20px] self-start text-[--textLight] md:text-[20px] lg:px-[0px]">
             Here are a few technologies I've been working with recently:
@@ -53,6 +58,12 @@ export default function About() {
                   <BsPlay color="#ba67d6" />
                 </p>
                 <p>Tailwind CSS</p>
+              </div>
+              <div className="flex items-center gap-[5px]">
+                <p>
+                  <BsPlay color="#ba67d6" />
+                </p>
+                <p>PostgreSQL</p>
               </div>
             </div>
             <div className="flex flex-col gap-[10px] fontFira">
