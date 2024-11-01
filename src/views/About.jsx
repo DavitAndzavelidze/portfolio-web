@@ -19,16 +19,17 @@ export default function About() {
             About Me
           </h1>
           <p className="px-[20px] rounded-[20px] text-[--textLight] leading-[30px] text-[18px] md:text-[20px] lg:px-[0px] lg:w-[600px] mb-[10px]">
-            Hello, I'm a full stack developer and I bring a comprehensive skill
-            set that spans both front-end and back-end technologies. My
-            technical proficiency includes languages such as JavaScript and
-            Python as well as framework like React. I'm experienced in database
-            management, API development and implementing responsive web designs.
-            I'm passionate about staying current with the latest web development
-            trends and continuously improving my skills. My career goal is to
-            grow into a lead development role where I can mentor junior
-            developers and contribute to architectural decisions on large-scale
-            projects
+            Hello, as a full stack developer, I have a complete skill set that
+            covers both the front end and the back end. This includes
+            programming languages, such as JavaScript and Python, as well as
+            development tools, such as the React framework. I have also worked
+            in database management and API creation, as well as with designing
+            for all screen sizes. I love web development more so because it
+            always, challenges me, to update my knowledge and hone my expertise.
+            The ambition I have for my career, is to one day assume a lead
+            development position where I would be able to train the junior
+            developers and make decisions on the principles of designing huge
+            systems.
           </p>
           <p className="px-[20px] self-start text-[--textLight] md:text-[20px] lg:px-[0px]">
             Here are a few technologies I've been working with recently:

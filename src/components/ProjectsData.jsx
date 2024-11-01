@@ -55,17 +55,6 @@ export const ProjectsData = [
   },
   {
     id: 4,
-    image: [Lidya],
-    liveSite: <FiExternalLink />,
-    github: <FiGithub />,
-    liveLink: "https://lidyanet.com/",
-    githubCode: "https://github.com/DavitAndzavelidze/lidya",
-    websiteTitle: "Lidya",
-    siteInfo: `The website can provide information about construction company, including their qualifications, contacts and experience.`,
-    buildIn: `Next JS Tailwind CSS Framer Motion`,
-  },
-  {
-    id: 5,
     image: [myracha],
     liveSite: <FiExternalLink />,
     github: <FiGithub />,
